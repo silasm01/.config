@@ -1,0 +1,7 @@
+2024-02-29 08:26:27.763 [info] update#setState idle
+2024-02-29 08:26:57.766 [info] update#setState checking for updates
+2024-02-29 08:26:57.857 [info] update#setState idle
+2024-02-29 09:26:57.768 [info] update#setState checking for updates
+2024-02-29 09:26:58.073 [info] update#setState idle
+2024-02-29 09:39:35.186 [info] Extension host with pid 1753 exited with code: 0, signal: unknown.
+2024-02-29 09:39:35.240 [error] Blocked vscode-file request vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/base/worker/workerMain.js#editorWorkerService

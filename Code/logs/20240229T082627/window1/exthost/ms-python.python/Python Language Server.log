@@ -1,0 +1,20 @@
+2024-02-29 08:26:31.580 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.2.0)
+2024-02-29 08:26:31.947 [info] [Info  - 8:26:31 AM] (1888) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-29 08:26:31.948 [info] [Info  - 8:26:31 AM] (1888) Server root directory: file:///home/silas/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-29 08:26:31.948 [info] [Info  - 8:26:31 AM] (1888) Starting service instance "jupyter skole"
+2024-02-29 08:26:31.966 [info] [Info  - 8:26:31 AM] (1888) Setting pythonPath for service "jupyter skole": "/bin/python"
+2024-02-29 08:26:31.966 [info] [Info  - 8:26:31 AM] (1888) Setting environmentName for service "jupyter skole": "3.11.7 (global)"
+2024-02-29 08:26:31.983 [info] [Info  - 8:26:31 AM] (1888) Assuming Python version 3.11
+2024-02-29 08:26:32.025 [info] [Info  - 8:26:32 AM] (1888) No source files found.
+2024-02-29 08:26:32.231 [info] [Info  - 8:26:32 AM] (1888) Background analysis(1) root directory: file:///home/silas/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-29 08:26:32.233 [info] [Info  - 8:26:32 AM] (1888) Background analysis(1) started
+2024-02-29 08:26:32.519 [info] [Info  - 8:26:32 AM] (1888) Indexer background runner(2) root directory: file:///home/silas/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-29 08:26:32.520 [info] [Info  - 8:26:32 AM] (1888) Indexing(2) started
+2024-02-29 08:26:32.810 [info] [Info  - 8:26:32 AM] (1888) scanned(2) 57 files over 1 exec env
+2024-02-29 08:26:33.124 [info] [Info  - 8:26:33 AM] (1888) indexed(2) 35 files over 1 exec env
+2024-02-29 08:26:33.158 [info] [Info  - 8:26:33 AM] (1888) Indexing finished(2).
+2024-02-29 08:36:29.868 [info] [Info  - 8:36:29 AM] (1888) Indexer background runner(3) root directory: file:///home/silas/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist (refresh)
+2024-02-29 08:36:29.868 [info] [Info  - 8:36:29 AM] (1888) Indexing(3) started
+2024-02-29 08:36:30.042 [info] [Info  - 8:36:30 AM] (1888) scanned(3) 58 files over 1 exec env
+2024-02-29 08:36:30.385 [info] [Info  - 8:36:30 AM] (1888) indexed(3) 36 files over 1 exec env
+2024-02-29 08:36:30.420 [info] [Info  - 8:36:30 AM] (1888) Indexing finished(3).

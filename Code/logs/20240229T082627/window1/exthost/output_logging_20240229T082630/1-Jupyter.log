@@ -1,0 +1,390 @@
+Visual Studio Code (1.87.0, undefined, desktop)
+Jupyter Extension Version: 2024.2.0.
+Python Extension Version: 2024.2.0.
+Pylance Extension Version: 2024.2.2.
+Platform: linux (x64).
+Workspace folder ~/code/jupyter skole, Home = /home/silas
+08:26:30.370 [info] Start refreshing Kernel Picker (1709191590370)
+08:26:30.393 [info] Using Pylance
+08:26:30.449 [info] Start refreshing Interpreter Kernel Picker
+08:26:30.718 [warn] Unable to find sysPrefix for interpreter /usr/sbin/python
+08:26:30.718 [warn] Failed to get sysPrefix for interpreter /usr/sbin/python
+08:26:30.941 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.7) for '~/code/jupyter skole/demo.ipynb' (disableUI=true)
+08:26:31.101 [warn] Failed to get activated env vars for /bin/python in 382ms
+08:26:31.103 [warn] Failed to get activated env vars for /bin/python in 134ms
+08:26:31.107 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+08:26:31.120 [info] Process Execution: /bin/python -m pip list
+08:26:31.125 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+08:26:31.130 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-1753Imc7fJGNsO1Z.json
+    > cwd: ~/code/jupyter skole
+08:26:31.130 [info] Kernel process 1874.
+08:26:31.595 [warn] StdErr from Kernel Process [IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+08:26:31.798 [info] Registering Kernel Completion Provider from kernel Python 3.11.7 for language python
+08:26:31.806 [info] Process Execution: /bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/pythonFiles/printJupyterDataDir.py
+08:26:32.173 [info] End refreshing Kernel Picker (1709191590370)
+08:26:48.659 [info] Handle Execution of Cells 0 for ~/code/jupyter skole/demo.ipynb
+08:26:48.664 [info] Kernel acknowledged execution of cell 0 @ 1709191608663
+08:26:48.822 [info] End cell 0 execution after 0.159s, completed @ 1709191608822, started @ 1709191608663
+08:49:24.135 [info] Handle Execution of Cells 0 for ~/code/jupyter skole/demo.ipynb
+08:49:24.140 [info] Kernel acknowledged execution of cell 0 @ 1709192964140
+08:49:24.211 [warn] Cell completed with errors [sd [Error]: list indices must be integers or slices, not tuple
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not tuple',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[2], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mnumpy\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mnp\x1B[39;00m\n' +
+      '\x1B[0;32m----> 2\x1B[0m data \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39marray(\x1B[43m[\x1B[49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m2\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m3\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m4\x1B[39;49m\x1B[43m]\x1B[49m[\x1B[38;5;241m5\x1B[39m,\x1B[38;5;241m6\x1B[39m])\n' +
+      '\x1B[1;32m      3\x1B[0m data\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not tuple'
+  ]
+}
+08:49:24.212 [info] End cell 0 execution after 0.071s, completed @ 1709192964211, started @ 1709192964140
+08:49:32.316 [info] Handle Execution of Cells 0 for ~/code/jupyter skole/demo.ipynb
+08:49:32.329 [info] Kernel acknowledged execution of cell 0 @ 1709192972329
+08:49:32.329 [warn] Cell completed with errors [sd [Error]: array() takes from 1 to 2 positional arguments but 3 were given
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'TypeError',
+  evalue: 'array() takes from 1 to 2 positional arguments but 3 were given',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[3], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mnumpy\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mnp\x1B[39;00m\n' +
+      '\x1B[0;32m----> 2\x1B[0m data \x1B[38;5;241m=\x1B[39m \x1B[43mnp\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43marray\x1B[49m\x1B[43m(\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m2\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m3\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m4\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m5\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m6\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m      3\x1B[0m data\n',
+    '\x1B[0;31mTypeError\x1B[0m: array() takes from 1 to 2 positional arguments but 3 were given'
+  ]
+}
+08:49:32.330 [info] End cell 0 execution after 0s, completed @ 1709192972329, started @ 1709192972329
+08:49:33.708 [info] Handle Execution of Cells 0 for ~/code/jupyter skole/demo.ipynb
+08:49:33.721 [info] Kernel acknowledged execution of cell 0 @ 1709192973721
+08:49:33.723 [warn] Cell completed with errors [sd [Error]: array() takes from 1 to 2 positional arguments but 3 were given
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'TypeError',
+  evalue: 'array() takes from 1 to 2 positional arguments but 3 were given',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[4], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mnumpy\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mnp\x1B[39;00m\n' +
+      '\x1B[0;32m----> 2\x1B[0m data \x1B[38;5;241m=\x1B[39m \x1B[43mnp\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43marray\x1B[49m\x1B[43m(\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m2\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m3\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m4\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m5\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m6\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m      3\x1B[0m data\n',
+    '\x1B[0;31mTypeError\x1B[0m: array() takes from 1 to 2 positional arguments but 3 were given'
+  ]
+}
+08:49:33.724 [info] End cell 0 execution after 0.002s, completed @ 1709192973723, started @ 1709192973721
+08:50:03.866 [info] Handle Execution of Cells 0 for ~/code/jupyter skole/demo.ipynb
+08:50:03.879 [info] Kernel acknowledged execution of cell 0 @ 1709193003879
+08:50:03.881 [warn] Cell completed with errors [sd [Error]: list indices must be integers or slices, not tuple
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not tuple',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mnumpy\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mnp\x1B[39;00m\n' +
+      '\x1B[0;32m----> 2\x1B[0m data \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39mmatrix(\x1B[43m[\x1B[49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m2\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m3\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m4\x1B[39;49m\x1B[43m]\x1B[49m[\x1B[38;5;241m5\x1B[39m,\x1B[38;5;241m6\x1B[39m])\n' +
+      '\x1B[1;32m      3\x1B[0m data\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not tuple'
+  ]
+}
+08:50:03.882 [info] End cell 0 execution after 0.002s, completed @ 1709193003881, started @ 1709193003879
+08:50:04.557 [info] Handle Execution of Cells 0 for ~/code/jupyter skole/demo.ipynb
+08:50:04.567 [info] Kernel acknowledged execution of cell 0 @ 1709193004566
+08:50:04.569 [warn] Cell completed with errors [sd [Error]: list indices must be integers or slices, not tuple
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not tuple',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[6], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mnumpy\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mnp\x1B[39;00m\n' +
+      '\x1B[0;32m----> 2\x1B[0m data \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39mmatrix(\x1B[43m[\x1B[49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m2\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m3\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m4\x1B[39;49m\x1B[43m]\x1B[49m[\x1B[38;5;241m5\x1B[39m,\x1B[38;5;241m6\x1B[39m])\n' +
+      '\x1B[1;32m      3\x1B[0m data\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not tuple'
+  ]
+}
+08:50:04.569 [info] End cell 0 execution after 0.003s, completed @ 1709193004569, started @ 1709193004566
+08:50:13.414 [info] Handle Execution of Cells 0 for ~/code/jupyter skole/demo.ipynb
+08:50:13.424 [info] Kernel acknowledged execution of cell 0 @ 1709193013424
+08:50:13.426 [warn] Cell completed with errors [sd [Error]: list indices must be integers or slices, not tuple
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not tuple',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[7], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mnumpy\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mnp\x1B[39;00m\n' +
+      '\x1B[0;32m----> 2\x1B[0m data \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39mmatrix(\x1B[43m[\x1B[49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m2\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m3\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m4\x1B[39;49m\x1B[43m]\x1B[49m[\x1B[38;5;241m5\x1B[39m,\x1B[38;5;241m6\x1B[39m])\n' +
+      '\x1B[1;32m      3\x1B[0m data\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not tuple'
+  ]
+}
+08:50:13.426 [info] End cell 0 execution after 0.002s, completed @ 1709193013426, started @ 1709193013424
+08:50:50.166 [info] Handle Execution of Cells 0 for ~/code/jupyter skole/demo.ipynb
+08:50:50.172 [info] Kernel acknowledged execution of cell 0 @ 1709193050172
+08:50:50.191 [warn] Cell completed with errors [sd [Error]: Field elements must be 2- or 3-tuples, got '3'
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'TypeError',
+  evalue: "Field elements must be 2- or 3-tuples, got '3'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[8], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mnumpy\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mnp\x1B[39;00m\n' +
+      '\x1B[0;32m----> 2\x1B[0m data \x1B[38;5;241m=\x1B[39m \x1B[43mnp\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mmatrix\x1B[49m\x1B[43m(\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m2\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m3\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m4\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;241;43m5\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m6\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m      3\x1B[0m data\n',
+    'File \x1B[0;32m~/.local/lib/python3.11/site-packages/numpy/matrixlib/defmatrix.py:146\x1B[0m, in \x1B[0;36mmatrix.__new__\x1B[0;34m(subtype, data, dtype, copy)\x1B[0m\n' +
+      '\x1B[1;32m    143\x1B[0m     data \x1B[38;5;241m=\x1B[39m _convert_from_string(data)\n' +
+      '\x1B[1;32m    145\x1B[0m \x1B[38;5;66;03m# now convert data to an array\x1B[39;00m\n' +
+      '\x1B[0;32m--> 146\x1B[0m arr \x1B[38;5;241m=\x1B[39m \x1B[43mN\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43marray\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mdtype\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcopy\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mcopy\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    147\x1B[0m ndim \x1B[38;5;241m=\x1B[39m arr\x1B[38;5;241m.\x1B[39mndim\n' +
+      '\x1B[1;32m    148\x1B[0m shape \x1B[38;5;241m=\x1B[39m arr\x1B[38;5;241m.\x1B[39mshape\n',
+    "\x1B[0;31mTypeError\x1B[0m: Field elements must be 2- or 3-tuples, got '3'"
+  ]
+}
+08:50:50.191 [info] End cell 0 execution after 0.019s, completed @ 1709193050191, started @ 1709193050172
+08:51:13.789 [info] Handle Execution of Cells 0 for ~/code/jupyter skole/demo.ipynb
+08:51:13.795 [info] Kernel acknowledged execution of cell 0 @ 1709193073795
+08:51:13.801 [info] End cell 0 execution after 0.005s, completed @ 1709193073800, started @ 1709193073795
+08:51:54.985 [info] Handle Execution of Cells 0 for ~/code/jupyter skole/demo.ipynb
+08:51:54.990 [info] Kernel acknowledged execution of cell 0 @ 1709193114990
+08:51:54.992 [info] End cell 0 execution after 0.002s, completed @ 1709193114992, started @ 1709193114990
+08:53:20.832 [info] Handle Execution of Cells 1 for ~/code/jupyter skole/demo.ipynb
+08:53:20.837 [info] Kernel acknowledged execution of cell 1 @ 1709193200837
+08:53:20.839 [info] End cell 1 execution after 0.002s, completed @ 1709193200839, started @ 1709193200837
+08:54:08.999 [info] Handle Execution of Cells 2 for ~/code/jupyter skole/demo.ipynb
+08:54:09.004 [info] Kernel acknowledged execution of cell 2 @ 1709193249004
+08:54:09.005 [info] End cell 2 execution after 0.001s, completed @ 1709193249005, started @ 1709193249004
+08:55:37.716 [info] Handle Execution of Cells 3 for ~/code/jupyter skole/demo.ipynb
+08:55:37.721 [info] Kernel acknowledged execution of cell 3 @ 1709193337720
+08:55:37.722 [info] End cell 3 execution after 0.002s, completed @ 1709193337722, started @ 1709193337720
+08:55:45.292 [info] Handle Execution of Cells 3 for ~/code/jupyter skole/demo.ipynb
+08:55:45.297 [info] Kernel acknowledged execution of cell 3 @ 1709193345297
+08:55:45.299 [info] End cell 3 execution after 0.002s, completed @ 1709193345299, started @ 1709193345297
+08:55:49.895 [info] Handle Execution of Cells 3 for ~/code/jupyter skole/demo.ipynb
+08:55:49.900 [info] Kernel acknowledged execution of cell 3 @ 1709193349899
+08:55:49.901 [info] End cell 3 execution after 0.002s, completed @ 1709193349901, started @ 1709193349899
+08:58:13.069 [info] Handle Execution of Cells 4 for ~/code/jupyter skole/demo.ipynb
+08:58:13.072 [info] Kernel acknowledged execution of cell 4 @ 1709193493072
+08:58:13.075 [info] End cell 4 execution after 0.003s, completed @ 1709193493075, started @ 1709193493072
+09:01:53.084 [info] Handle Execution of Cells 4 for ~/code/jupyter skole/demo.ipynb
+09:01:53.089 [info] Kernel acknowledged execution of cell 4 @ 1709193713089
+09:01:53.090 [info] End cell 4 execution after 0.001s, completed @ 1709193713090, started @ 1709193713089
+09:04:53.859 [info] Handle Execution of Cells 0,1,2,3,4 for ~/code/jupyter skole/demo.ipynb
+09:04:53.866 [info] Kernel acknowledged execution of cell 0 @ 1709193893866
+09:04:53.869 [info] End cell 0 execution after 0.002s, completed @ 1709193893868, started @ 1709193893866
+09:04:53.871 [info] Kernel acknowledged execution of cell 1 @ 1709193893871
+09:04:53.889 [info] End cell 1 execution after 0.018s, completed @ 1709193893889, started @ 1709193893871
+09:04:53.892 [info] Kernel acknowledged execution of cell 2 @ 1709193893892
+09:04:53.907 [info] End cell 2 execution after 0.015s, completed @ 1709193893907, started @ 1709193893892
+09:04:53.909 [info] Kernel acknowledged execution of cell 3 @ 1709193893909
+09:04:53.924 [info] End cell 3 execution after 0.015s, completed @ 1709193893924, started @ 1709193893909
+09:04:53.926 [info] Kernel acknowledged execution of cell 4 @ 1709193893926
+09:04:53.941 [info] End cell 4 execution after 0.015s, completed @ 1709193893941, started @ 1709193893926
+09:11:03.532 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.533 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.533 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.533 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.533 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.533 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.533 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.533 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.533 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.533 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.546 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.552 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.557 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.557 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.557 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.560 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.560 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:03.560 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:11:41.692 [info] Handle Execution of Cells 0 for ~/code/jupyter skole/demo.ipynb
+09:11:41.697 [info] Kernel acknowledged execution of cell 0 @ 1709194301697
+09:11:41.699 [info] End cell 0 execution after 0.001s, completed @ 1709194301698, started @ 1709194301697
+09:11:42.726 [info] Handle Execution of Cells 1 for ~/code/jupyter skole/demo.ipynb
+09:11:42.729 [info] Kernel acknowledged execution of cell 1 @ 1709194302729
+09:11:42.733 [info] End cell 1 execution after 0.004s, completed @ 1709194302733, started @ 1709194302729
+09:11:56.849 [info] Handle Execution of Cells 1 for ~/code/jupyter skole/demo.ipynb
+09:11:56.853 [info] Kernel acknowledged execution of cell 1 @ 1709194316853
+09:11:56.856 [info] End cell 1 execution after 0.003s, completed @ 1709194316856, started @ 1709194316853
+09:12:01.215 [info] Handle Execution of Cells 1 for ~/code/jupyter skole/demo.ipynb
+09:12:01.220 [info] Kernel acknowledged execution of cell 1 @ 1709194321220
+09:12:01.222 [info] End cell 1 execution after 0.002s, completed @ 1709194321222, started @ 1709194321220
+09:15:43.189 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:15:43.189 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:15:43.189 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:16:53.091 [info] Handle Execution of Cells 4 for ~/code/jupyter skole/demo.ipynb
+09:16:53.095 [info] Kernel acknowledged execution of cell 4 @ 1709194613095
+09:16:53.098 [info] End cell 4 execution after 0.003s, completed @ 1709194613098, started @ 1709194613095
+09:18:13.655 [info] Handle Execution of Cells 5 for ~/code/jupyter skole/demo.ipynb
+09:18:13.659 [info] Kernel acknowledged execution of cell 5 @ 1709194693659
+09:18:13.665 [warn] Cell completed with errors [sd [Error]: name 'ia' is not defined
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'NameError',
+  evalue: "name 'ia' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[28], line 1\x1B[0m\n\x1B[0;32m----> 1\x1B[0m \x1B[43mia\x1B[49m\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'ia' is not defined"
+  ]
+}
+09:18:13.665 [info] End cell 5 execution after 0.006s, completed @ 1709194693665, started @ 1709194693659
+09:18:19.811 [info] Disposing request as the cell (-1) was deleted ~/code/jupyter skole/demo.ipynb
+09:19:10.931 [info] Handle Execution of Cells 0,2,4 for ~/code/jupyter skole/demo.ipynb
+09:19:10.935 [info] Kernel acknowledged execution of cell 0 @ 1709194750935
+09:19:10.937 [info] End cell 0 execution after 0.002s, completed @ 1709194750937, started @ 1709194750935
+09:19:10.939 [info] Kernel acknowledged execution of cell 2 @ 1709194750939
+09:19:10.957 [info] End cell 2 execution after 0.018s, completed @ 1709194750957, started @ 1709194750939
+09:19:10.960 [info] Kernel acknowledged execution of cell 4 @ 1709194750960
+09:19:10.971 [info] End cell 4 execution after 0.011s, completed @ 1709194750971, started @ 1709194750960
+09:19:31.585 [info] Handle Execution of Cells 5 for ~/code/jupyter skole/demo.ipynb
+09:19:31.591 [info] Kernel acknowledged execution of cell 5 @ 1709194771590
+09:19:31.593 [info] End cell 5 execution after 0.003s, completed @ 1709194771593, started @ 1709194771590
+09:19:32.166 [info] Handle Execution of Cells 5 for ~/code/jupyter skole/demo.ipynb
+09:19:32.171 [info] Kernel acknowledged execution of cell 5 @ 1709194772171
+09:19:32.173 [info] End cell 5 execution after 0.002s, completed @ 1709194772173, started @ 1709194772171
+09:19:32.842 [info] Handle Execution of Cells 5 for ~/code/jupyter skole/demo.ipynb
+09:19:32.846 [info] Kernel acknowledged execution of cell 5 @ 1709194772846
+09:19:32.848 [info] End cell 5 execution after 0.002s, completed @ 1709194772848, started @ 1709194772846
+09:19:33.645 [info] Handle Execution of Cells 5 for ~/code/jupyter skole/demo.ipynb
+09:19:33.651 [info] Kernel acknowledged execution of cell 5 @ 1709194773651
+09:19:33.654 [info] End cell 5 execution after 0.003s, completed @ 1709194773654, started @ 1709194773651
+09:19:46.255 [info] Handle Execution of Cells 5 for ~/code/jupyter skole/demo.ipynb
+09:19:46.260 [info] Kernel acknowledged execution of cell 5 @ 1709194786260
+09:19:46.262 [info] End cell 5 execution after 0.002s, completed @ 1709194786262, started @ 1709194786260
+09:21:05.443 [info] Handle Execution of Cells 7 for ~/code/jupyter skole/demo.ipynb
+09:21:05.446 [info] Kernel acknowledged execution of cell 7 @ 1709194865446
+09:21:05.449 [info] End cell 7 execution after 0.003s, completed @ 1709194865449, started @ 1709194865446
+09:21:11.897 [info] Handle Execution of Cells 7 for ~/code/jupyter skole/demo.ipynb
+09:21:11.902 [info] Kernel acknowledged execution of cell 7 @ 1709194871902
+09:21:11.904 [info] End cell 7 execution after 0.002s, completed @ 1709194871904, started @ 1709194871902
+09:21:32.468 [info] Handle Execution of Cells 8 for ~/code/jupyter skole/demo.ipynb
+09:21:32.471 [info] Kernel acknowledged execution of cell 8 @ 1709194892471
+09:21:32.474 [info] End cell 8 execution after 0.003s, completed @ 1709194892474, started @ 1709194892471
+09:23:07.012 [info] Handle Execution of Cells 9 for ~/code/jupyter skole/demo.ipynb
+09:23:07.017 [info] Kernel acknowledged execution of cell 9 @ 1709194987017
+09:23:07.019 [info] End cell 9 execution after 0.002s, completed @ 1709194987019, started @ 1709194987017
+09:23:39.726 [info] Handle Execution of Cells 0,2,4,5,8,10,11 for ~/code/jupyter skole/demo.ipynb
+09:23:39.731 [info] Kernel acknowledged execution of cell 0 @ 1709195019731
+09:23:39.733 [info] End cell 0 execution after 0.002s, completed @ 1709195019733, started @ 1709195019731
+09:23:39.738 [info] Kernel acknowledged execution of cell 2 @ 1709195019737
+09:23:39.773 [info] End cell 2 execution after 0.034s, completed @ 1709195019771, started @ 1709195019737
+09:23:39.777 [info] Kernel acknowledged execution of cell 4 @ 1709195019777
+09:23:39.779 [info] End cell 4 execution after 0.002s, completed @ 1709195019779, started @ 1709195019777
+09:23:39.781 [info] Kernel acknowledged execution of cell 5 @ 1709195019781
+09:23:39.800 [info] End cell 5 execution after 0.019s, completed @ 1709195019800, started @ 1709195019781
+09:23:39.803 [info] Kernel acknowledged execution of cell 8 @ 1709195019803
+09:23:39.820 [info] End cell 8 execution after 0.017s, completed @ 1709195019820, started @ 1709195019803
+09:23:39.823 [info] Kernel acknowledged execution of cell 10 @ 1709195019823
+09:23:39.834 [info] End cell 10 execution after 0.011s, completed @ 1709195019834, started @ 1709195019823
+09:23:39.836 [info] Kernel acknowledged execution of cell 11 @ 1709195019835
+09:23:39.851 [info] End cell 11 execution after 0.016s, completed @ 1709195019851, started @ 1709195019835
+09:23:55.868 [info] Handle Execution of Cells 0,2,4,5,8,10,12 for ~/code/jupyter skole/demo.ipynb
+09:23:55.875 [info] Kernel acknowledged execution of cell 0 @ 1709195035874
+09:23:55.876 [info] End cell 0 execution after 0.002s, completed @ 1709195035876, started @ 1709195035874
+09:23:55.879 [info] Kernel acknowledged execution of cell 2 @ 1709195035879
+09:23:55.897 [info] End cell 2 execution after 0.017s, completed @ 1709195035896, started @ 1709195035879
+09:23:55.899 [info] Kernel acknowledged execution of cell 4 @ 1709195035899
+09:23:55.914 [info] End cell 4 execution after 0.015s, completed @ 1709195035914, started @ 1709195035899
+09:23:55.917 [info] Kernel acknowledged execution of cell 5 @ 1709195035917
+09:23:55.932 [info] End cell 5 execution after 0.015s, completed @ 1709195035932, started @ 1709195035917
+09:23:55.934 [info] Kernel acknowledged execution of cell 8 @ 1709195035934
+09:23:55.947 [info] End cell 8 execution after 0.013s, completed @ 1709195035947, started @ 1709195035934
+09:23:55.950 [info] Kernel acknowledged execution of cell 10 @ 1709195035950
+09:23:55.964 [info] End cell 10 execution after 0.014s, completed @ 1709195035964, started @ 1709195035950
+09:23:55.966 [info] Kernel acknowledged execution of cell 12 @ 1709195035966
+09:23:55.981 [info] End cell 12 execution after 0.015s, completed @ 1709195035981, started @ 1709195035966
+09:25:13.061 [info] Handle Execution of Cells 14 for ~/code/jupyter skole/demo.ipynb
+09:25:13.068 [info] Kernel acknowledged execution of cell 14 @ 1709195113068
+09:25:13.074 [warn] Cell completed with errors [sd [Error]: 'builtin_function_or_method' object is not subscriptable
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'TypeError',
+  evalue: "'builtin_function_or_method' object is not subscriptable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[55], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mnp\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43marray\x1B[49m\x1B[43m[\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m2\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m3.2\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m5.5\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m-\x1B[39;49m\x1B[38;5;241;43m6.4\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m-\x1B[39;49m\x1B[38;5;241;43m2.2\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m2.4\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m]\x1B[49m\n',
+    "\x1B[0;31mTypeError\x1B[0m: 'builtin_function_or_method' object is not subscriptable"
+  ]
+}
+09:25:13.074 [info] End cell 14 execution after 0.006s, completed @ 1709195113074, started @ 1709195113068
+09:25:23.036 [info] Handle Execution of Cells 14 for ~/code/jupyter skole/demo.ipynb
+09:25:23.041 [info] Kernel acknowledged execution of cell 14 @ 1709195123040
+09:25:23.046 [warn] Cell completed with errors [sd [Error]: array() takes from 1 to 2 positional arguments but 6 were given
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'TypeError',
+  evalue: 'array() takes from 1 to 2 positional arguments but 6 were given',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[56], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mnp\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43marray\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m2\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m3.2\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m5.5\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m-\x1B[39;49m\x1B[38;5;241;43m6.4\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m-\x1B[39;49m\x1B[38;5;241;43m2.2\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;241;43m2.4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    '\x1B[0;31mTypeError\x1B[0m: array() takes from 1 to 2 positional arguments but 6 were given'
+  ]
+}
+09:25:23.046 [info] End cell 14 execution after 0.006s, completed @ 1709195123046, started @ 1709195123040
+09:25:28.644 [info] Handle Execution of Cells 14 for ~/code/jupyter skole/demo.ipynb
+09:25:28.647 [info] Kernel acknowledged execution of cell 14 @ 1709195128647
+09:25:28.650 [info] End cell 14 execution after 0.003s, completed @ 1709195128650, started @ 1709195128647
+09:27:17.317 [info] Handle Execution of Cells 14 for ~/code/jupyter skole/demo.ipynb
+09:27:17.323 [info] Kernel acknowledged execution of cell 14 @ 1709195237323
+09:27:17.325 [info] End cell 14 execution after 0.002s, completed @ 1709195237325, started @ 1709195237323
+09:28:50.446 [info] Handle Execution of Cells 15 for ~/code/jupyter skole/demo.ipynb
+09:28:50.451 [info] Kernel acknowledged execution of cell 15 @ 1709195330450
+09:28:50.452 [info] End cell 15 execution after 0.002s, completed @ 1709195330452, started @ 1709195330450
+09:29:15.239 [info] Handle Execution of Cells 16 for ~/code/jupyter skole/demo.ipynb
+09:29:15.244 [info] Kernel acknowledged execution of cell 16 @ 1709195355244
+09:29:15.246 [info] End cell 16 execution after 0.002s, completed @ 1709195355246, started @ 1709195355244
+09:29:22.013 [info] Handle Execution of Cells 16 for ~/code/jupyter skole/demo.ipynb
+09:29:22.018 [info] Kernel acknowledged execution of cell 16 @ 1709195362018
+09:29:22.020 [info] End cell 16 execution after 0.002s, completed @ 1709195362020, started @ 1709195362018
+09:30:40.693 [info] Handle Execution of Cells 18 for ~/code/jupyter skole/demo.ipynb
+09:30:40.698 [info] Kernel acknowledged execution of cell 18 @ 1709195440698
+09:30:40.700 [info] End cell 18 execution after 0.002s, completed @ 1709195440700, started @ 1709195440698
+09:31:22.402 [info] Handle Execution of Cells 19 for ~/code/jupyter skole/demo.ipynb
+09:31:22.412 [info] Kernel acknowledged execution of cell 19 @ 1709195482411
+09:31:22.414 [warn] Cell completed with errors [sd [Error]: 'matrix' object has no attribute 'axis'
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'AttributeError',
+  evalue: "'matrix' object has no attribute 'axis'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[63], line 4\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m a \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39mmatrix([[\x1B[38;5;241m2\x1B[39m, \x1B[38;5;241m3.2\x1B[39m, \x1B[38;5;241m5.5\x1B[39m, \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m6.4\x1B[39m, \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m2.2\x1B[39m, \x1B[38;5;241m2.4\x1B[39m],\n' +
+      '\x1B[1;32m      2\x1B[0m [\x1B[38;5;241m1\x1B[39m, \x1B[38;5;241m22\x1B[39m, \x1B[38;5;241m4\x1B[39m, \x1B[38;5;241m0.1\x1B[39m, \x1B[38;5;241m5.3\x1B[39m, \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m9\x1B[39m],\n' +
+      '\x1B[1;32m      3\x1B[0m [\x1B[38;5;241m3\x1B[39m, \x1B[38;5;241m1\x1B[39m, \x1B[38;5;241m2.1\x1B[39m, \x1B[38;5;241m21\x1B[39m, \x1B[38;5;241m1.1\x1B[39m, \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m2\x1B[39m]])\n' +
+      '\x1B[0;32m----> 4\x1B[0m \x1B[43ma\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43maxis\x1B[49m(\x1B[38;5;241m0\x1B[39m,\x1B[38;5;241m4\x1B[39m)\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'matrix' object has no attribute 'axis'"
+  ]
+}
+09:31:22.415 [info] End cell 19 execution after 0.003s, completed @ 1709195482414, started @ 1709195482411
+09:31:53.467 [info] Handle Execution of Cells 19 for ~/code/jupyter skole/demo.ipynb
+09:31:53.471 [info] Kernel acknowledged execution of cell 19 @ 1709195513471
+09:31:53.474 [info] End cell 19 execution after 0.003s, completed @ 1709195513474, started @ 1709195513471
+09:32:00.269 [info] Handle Execution of Cells 19 for ~/code/jupyter skole/demo.ipynb
+09:32:00.274 [info] Kernel acknowledged execution of cell 19 @ 1709195520274
+09:32:00.276 [info] End cell 19 execution after 0.002s, completed @ 1709195520276, started @ 1709195520274
+09:33:16.476 [info] Handle Execution of Cells 20 for ~/code/jupyter skole/demo.ipynb
+09:33:16.481 [info] Kernel acknowledged execution of cell 20 @ 1709195596481
+09:33:16.485 [info] End cell 20 execution after 0.003s, completed @ 1709195596484, started @ 1709195596481
+09:33:31.567 [info] Handle Execution of Cells 20 for ~/code/jupyter skole/demo.ipynb
+09:33:31.571 [info] Kernel acknowledged execution of cell 20 @ 1709195611571
+09:33:31.572 [info] End cell 20 execution after 0.001s, completed @ 1709195611572, started @ 1709195611571
+09:33:43.407 [info] Handle Execution of Cells 20 for ~/code/jupyter skole/demo.ipynb
+09:33:43.412 [info] Kernel acknowledged execution of cell 20 @ 1709195623412
+09:33:43.414 [info] End cell 20 execution after 0.002s, completed @ 1709195623414, started @ 1709195623412
+09:39:35.172 [info] Disposing HostJupyterExecution
+09:39:35.172 [info] Dispose Kernel '~/code/jupyter skole/demo.ipynb' associated with '~/code/jupyter skole/demo.ipynb'
+09:39:35.172 [info] Dispose Kernel process 1874.
+09:39:35.179 [info] Disposing HostJupyterExecution

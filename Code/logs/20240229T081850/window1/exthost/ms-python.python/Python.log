@@ -1,0 +1,36 @@
+2024-02-29 08:20:03.661 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-29 08:20:03.661 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-29 08:20:03.661 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-29 08:20:03.661 [info] Experiment 'pythonTestAdapter' is active
+2024-02-29 08:20:03.681 [info] Default formatter is set to null for workspace /home/silas/code/jupyter skole
+2024-02-29 08:20:03.897 [info] Test server listening.
+2024-02-29 08:20:03.903 [info] > conda info --json
+2024-02-29 08:20:03.918 [info] Found: /bin/python --> /bin/python3.11
+2024-02-29 08:20:03.924 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-29 08:20:03.924 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-29 08:20:03.924 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-29 08:20:03.924 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-29 08:20:03.924 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-29 08:20:03.924 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-29 08:20:03.924 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-29 08:20:03.924 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-29 08:20:03.924 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-29 08:20:03.933 [info] Found: /bin/python3 --> /bin/python3.11
+2024-02-29 08:20:03.933 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-02-29 08:20:03.943 [info] Found: /sbin/python --> /sbin/python3.11
+2024-02-29 08:20:03.943 [info] Found: /sbin/python3 --> /sbin/python3.11
+2024-02-29 08:20:03.943 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2024-02-29 08:20:03.945 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2024-02-29 08:20:03.945 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-02-29 08:20:03.945 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-02-29 08:20:03.954 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2024-02-29 08:20:03.954 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2024-02-29 08:20:03.954 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2024-02-29 08:20:03.966 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-02-29 08:20:03.983 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-02-29 08:20:04.020 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-02-29 08:20:04.064 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-02-29 08:20:04.146 [info] Python interpreter path: /bin/python
+2024-02-29 08:20:04.150 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-29 08:20:05.132 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-02-29 08:20:05.399 [info] Starting Pylance language server.

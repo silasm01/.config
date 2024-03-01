@@ -1,0 +1,9 @@
+2024-02-29 17:14:45.008 [info] Extension host with pid 18521 started
+2024-02-29 17:14:45.008 [info] Skipping acquiring lock for /home/silas/.config/Code/User/workspaceStorage/044a2c38011b4c5c2fd0e3b81942d87e.
+2024-02-29 17:14:45.057 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-02-29 17:14:45.073 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-29 17:14:45.142 [info] Eager extensions activated
+2024-02-29 17:14:45.231 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-29 17:14:45.244 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-29 17:14:46.277 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-29 17:14:46.282 [info] Extension host with pid 18521 exiting with code 0
