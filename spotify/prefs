@@ -1,0 +1,13 @@
+autologin.canonical_username="silasmikkelsen"
+autologin.saved_credentials="{\"silasmikkelsen\":[\"silasmikkelsen\",\"oWa5MDHIJ8VNYWb4c/24mL7HaU5JZwy+zzzLGWWZmPYEEpzor60rdhNdVa8L0GG86FB3h1y6WRnEYs8wSIN3Me7G6RxokFh9hrFwMVULE+l5ZU31xHJlmz+8BRWNzgmIVXA74RR/ZYTbjHs6lgejgF6nEbPxTPEmpCfcIx01edou9Uh0GesLl/s9nwd7GTCQydmrFiTqLmfchTqmFR1nAzWCbiZzvf+LgDBwCsjwKSm/HWjEODv29yZmoIHtUXYRbrjb2RbXz6JaiMTokQGZUnt4dkOC6PXfE0aXUOnPWMxk6puq54f/cgc1aOGFYVWq\"]}"
+autologin.blob="oWa5MDHIJ8VNYWb4c/24mL7HaU5JZwy+zzzLGWWZmPYEEpzor60rdhNdVa8L0GG86FB3h1y6WRnEYs8wSIN3Me7G6RxokFh9hrFwMVULE+l5ZU31xHJlmz+8BRWNzgmIVXA74RR/ZYTbjHs6lgejgF6nEbPxTPEmpCfcIx01edou9Uh0GesLl/s9nwd7GTCQydmrFiTqLmfchTqmFR1nAzWCbiZzvf+LgDBwCsjwKSm/HWjEODv29yZmoIHtUXYRbrjb2RbXz6JaiMTokQGZUnt4dkOC6PXfE0aXUOnPWMxk6puq54f/cgc1aOGFYVWq"
+core.clock_delta=-1
+autologin.username="silasmikkelsen"
+app.window.position.saved=true
+app.window.position.height=1492
+app.window.position.y=31
+storage.last-location="/home/silas/.cache/spotify/Storage"
+app.window.state.saved=true
+app.window.position.width=2498
+app.window.position.x=31
+app.last-launched-version="1.2.31.1205.g4d59ad7c"

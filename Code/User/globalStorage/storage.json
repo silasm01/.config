@@ -5,30 +5,31 @@
             "file:///home/silas/code/jupyter%20skole": "__default__profile__",
             "file:///home/silas/.local/share/Steam/steamapps": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1709795044992": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.machineId": "c82725949c203f481260188319c8c01c45a04f46d08857607f7714fb63e82f1c",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
+        "folders": [],
+        "emptyWindows": [
             {
-                "folderUri": "file:///home/silas/.local/share/Steam/steamapps"
+                "backupFolder": "1709795044992"
             }
-        ],
-        "emptyWindows": []
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/silas/.local/share/Steam/steamapps",
-            "backupPath": "/home/silas/.config/Code/Backups/586e8874ed685262d278b93a5e1a5207",
+            "backupPath": "/home/silas/.config/Code/Backups/1709795044992",
             "uiState": {
                 "mode": 1,
-                "x": 3531,
+                "x": 31,
                 "y": 31,
-                "width": 453,
-                "height": 1018
+                "width": 1238,
+                "height": 1492
             }
         },
         "openedWindows": []
@@ -304,10 +305,6 @@
                         "label": "&&Close Editor"
                     },
                     {
-                        "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
-                    },
-                    {
                         "id": "workbench.action.closeWindow",
                         "label": "Clos&&e Window"
                     },
@@ -501,8 +498,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar",
-                                    "checked": true
+                                    "label": "&&Primary Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -784,6 +780,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -816,8 +816,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -826,8 +825,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1345,11 +1343,6 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
-            "workbench.action.closeFolder": {
-                "label": "Ctrl+K F",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k f"
-            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1732,7 +1725,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 185,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }

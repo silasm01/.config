@@ -1,5 +1,6 @@
 [Default Applications]
 application/x-zerosize=nvim.desktop
+application/x-maple-worksheet=/home/silas/.local/share/applications/maple2023.desktop
 
 [Added Associations]
 application/x-zerosize=nvim.desktop;
