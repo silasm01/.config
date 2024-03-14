@@ -57,7 +57,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+r exec --no-startup-id rofi -show run
+bindsym $mod+r exec --no-startup-id rofi -show drun
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -196,6 +196,7 @@ for_window [class=".*"] border pixel 1
 
 gaps inner 20
 gaps outer 10
+gaps top 50
 
 exec_always --no-startup-id ~/.config/polybar/material/scripts/pywal.sh ~/walls/
 

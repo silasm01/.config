@@ -2,11 +2,14 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
+            "file:///home/silas/.local/share/Steam/steamapps": "__default__profile__",
             "file:///home/silas/code/jupyter%20skole": "__default__profile__",
-            "file:///home/silas/.local/share/Steam/steamapps": "__default__profile__"
+            "file:///home/silas": "__default__profile__"
         },
         "emptyWindows": {
-            "1709795044992": "__default__profile__"
+            "1710245405525": "__default__profile__",
+            "1710353971259": "__default__profile__",
+            "1710399731419": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -14,22 +17,29 @@
     "telemetry.machineId": "c82725949c203f481260188319c8c01c45a04f46d08857607f7714fb63e82f1c",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/silas/code/jupyter%20skole"
+            },
+            {
+                "folderUri": "file:///home/silas"
+            }
+        ],
         "emptyWindows": [
             {
-                "backupFolder": "1709795044992"
+                "backupFolder": "1710399731419"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/silas/.config/Code/Backups/1709795044992",
+            "backupPath": "/home/silas/.config/Code/Backups/1710399731419",
             "uiState": {
                 "mode": 1,
-                "x": 31,
-                "y": 31,
-                "width": 1238,
-                "height": 1492
+                "x": 1714,
+                "y": 71,
+                "width": 815,
+                "height": 1498
             }
         },
         "openedWindows": []
@@ -82,12 +92,12 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/silas/.local/share/Steam/steamapps",
-                                        "path": "/home/silas/.local/share/Steam/steamapps",
+                                        "external": "file:///home/silas",
+                                        "path": "/home/silas",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.local/share/Steam/steamapps"
+                                    "label": "/home/silas"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -101,7 +111,73 @@
                                     "label": "~/code/jupyter skole"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/silas/.local/share/Steam/steamapps",
+                                        "path": "/home/silas/.local/share/Steam/steamapps",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.local/share/Steam/steamapps"
+                                },
+                                {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/silas/code/jupyter%20skole/numpyopgaver2.ipynb",
+                                        "path": "/home/silas/code/jupyter skole/numpyopgaver2.ipynb",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/code/jupyter skole/numpyopgaver2.ipynb"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/silas/.zshrc",
+                                        "path": "/home/silas/.zshrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.zshrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/silas/.aliases",
+                                        "path": "/home/silas/.aliases",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.aliases"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/silas/.colors",
+                                        "path": "/home/silas/.colors",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.colors"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/silas/.hooks",
+                                        "path": "/home/silas/.hooks",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.hooks"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -241,20 +317,12 @@
                                     "label": "&&Settings"
                                 },
                                 {
-                                    "id": "workbench.view.extensions",
-                                    "label": "&&Extensions"
-                                },
-                                {
                                     "id": "workbench.action.openGlobalKeybindings",
                                     "label": "Keyboard Shortcuts"
                                 },
                                 {
                                     "id": "workbench.action.openSnippets",
                                     "label": "Configure User Snippets"
-                                },
-                                {
-                                    "id": "workbench.action.tasks.openUserTasks",
-                                    "label": "User Tasks"
                                 },
                                 {
                                     "id": "submenuitem.ThemesSubMenu",
@@ -282,13 +350,6 @@
                                 {
                                     "id": "settings.filterByOnline",
                                     "label": "&&Online Services Settings"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "workbench.userDataSync.actions.turnOn",
-                                    "label": "Backup and Sync Settings..."
                                 }
                             ]
                         }
@@ -449,10 +510,6 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "workbench.action.toggleMultiCursorModifier",
-                        "label": "Switch to Ctrl+Click for Multi-Cursor"
-                    },
-                    {
                         "id": "editor.action.toggleColumnSelection",
                         "label": "Column &&Selection Mode"
                     }
@@ -515,7 +572,8 @@
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
-                                    "label": "Custom Title Bar"
+                                    "label": "Custom Title Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -531,12 +589,12 @@
                                         "items": [
                                             {
                                                 "id": "workbench.action.activityBarLocation.side",
-                                                "label": "&&Side",
-                                                "checked": true
+                                                "label": "&&Side"
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.top",
-                                                "label": "&&Top"
+                                                "label": "&&Top",
+                                                "checked": true
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.hide",
@@ -780,10 +838,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -816,7 +870,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -825,7 +880,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1217,10 +1273,6 @@
                         "label": "Editor Playgrou&&nd"
                     },
                     {
-                        "id": "update.showCurrentReleaseNotes",
-                        "label": "Show &&Release Notes"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -1245,10 +1297,6 @@
                     {
                         "id": "workbench.action.openRequestFeatureUrl",
                         "label": "&&Search Feature Requests"
-                    },
-                    {
-                        "id": "workbench.action.openIssueReporter",
-                        "label": "Report &&Issue"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1324,10 +1372,6 @@
                 "label": "Ctrl+,",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+[Comma]"
-            },
-            "workbench.view.extensions": {
-                "label": "Ctrl+Shift+X",
-                "userSettingsLabel": "ctrl+shift+x"
             },
             "workbench.action.openGlobalKeybindings": {
                 "label": "Ctrl+K Ctrl+S",
@@ -1510,6 +1554,10 @@
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
                 "userSettingsLabel": "ctrl+shift+d"
+            },
+            "workbench.view.extensions": {
+                "label": "Ctrl+Shift+X",
+                "userSettingsLabel": "ctrl+shift+x"
             },
             "workbench.actions.view.problems": {
                 "label": "Ctrl+Shift+M",
@@ -1706,25 +1754,25 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#282a36",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "activityBarBackground": "#181818",
-            "sideBarBackground": "#181818",
-            "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#f8f8f2",
+            "background": "#282a36",
+            "editorBackground": "#282a36",
+            "titleBarBackground": "#21222c",
+            "activityBarBackground": "#343746",
+            "sideBarBackground": "#21222c",
+            "statusBarBackground": "#191a21",
+            "statusBarNoFolderBackground": "#191a21"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
-            "activityBarWidth": 48,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
             "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
