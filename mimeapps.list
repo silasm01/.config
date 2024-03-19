@@ -4,3 +4,4 @@ application/x-maple-worksheet=/home/silas/.local/share/applications/maple2023.de
 
 [Added Associations]
 application/x-zerosize=nvim.desktop;
+image/jpeg=sxiv.desktop;
